@@ -1,0 +1,919 @@
+﻿
+
+
+2022-06-17 07:15:36.535 [http-nio-10.112.78.11-8109-exec-7] INFO  c.m.s.i.o.third.filter.LoggerFilter - IotOpenAPI|1655450136315|iot-open-third|10.112.78.11|220|POST|/alexa/voiceskillrequest/11cba77a085d9f111646b08424223959|null|null|7bb664ec-4c8d-42fb-8036-56d12a53c56a}|200|null|{body={"directive":{"header":{"namespace":"Alexa.Discovery","name":"Discover","payloadVersion":"3","messageId":"7bb664ec-4c8d-42fb-8036-56d12a53c56a"},"payload":{"scope":{"type":"BearerToken","token":"uwd1N92NGFG66yNtWWiG0uYqRy0ZJaTo"}}}}}|{"event":{"payload":{"endpoints":[{"displayCategories":["REFRIGERATOR"],"capabilities":[{"interface":"Alexa.EndpointHealth","type":"AlexaInterface","version":"3","properties":{"retrievable":true,"supported":[{"name":"connectivity"}],"proactivelyReported":true}},{"interface":"Alexa.ThermostatController","type":"AlexaInterface","version":"3","properties":{"retrievable":true,"supported":[{"name":"targetSetpoint"},{"name":"AdjustTargetTemperature"}],"proactivelyReported":true}},{"interface":"Alexa.TemperatureSensor","type":"AlexaInterface","version":"3"},{"instance":"Refrigerator.Mode","configuration":{"ordered":false,"supportedModes":[{"modeResources":{"friendlyNames":[{"@type":"text","value":{"text":"superCool","locale":"en-US"}},{"@type":"text","value":{"text":"cool","locale":"en-US"}},{"@type":"text","value":{"text":"super Cool","locale":"en-CA"}},{"@type":"text","value":{"text":"super Cool","locale":"en-GB"}},{"@type":"text","value":{"text":"Turbo Resfriamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"Refrigerador","locale":"pt-BR"}}]},"value":"Mode.superCool"},{"modeResources":{"friendlyNames":[{"@type":"text","value":{"text":"superFreeze","locale":"en-US"}},{"@type":"text","value":{"text":"super Freeze","locale":"en-US"}},{"@type":"text","value":{"text":"super Freeze","locale":"en-CA"}},{"@type":"text","value":{"text":"super Freeze","locale":"en-GB"}},{"@type":"text","value":{"text":"Turbo Congelamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"Freezer","locale":"pt-BR"}}]},"value":"Mode.superFreeze"},{"modeResources":{"friendlyNames":[{"@type":"text","value":{"text":"superCoolandsuperFreeze","locale":"en-US"}},{"@type":"text","value":{"text":"coolandFreeze","locale":"en-US"}},{"@type":"text","value":{"text":"superCoolandsuperFreeze","locale":"en-CA"}},{"@type":"text","value":{"text":"superCoolandsuperFreeze","locale":"en-GB"}},{"@type":"text","value":{"text":" TurboResfriamento e TurboCongelamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"RefrigeradoreFreezer","locale":"pt-BR"}}]},"value":"Mode.superCoolAndSuperFreeze"},{"modeResources":{"friendlyNames":[{"@type":"text","value":{"text":"NotSet","locale":"en-US"}},{"@type":"text","value":{"text":"NotSet","locale":"en-CA"}},{"@type":"text","value":{"text":"NotSet","locale":"en-GB"}},{"@type":"text","value":{"text":"NãoConfigurado","locale":"pt-BR"}}]},"value":"Mode.notSet"}]},"interface":"Alexa.ModeController","type":"AlexaInterface","capabilityResources":{"friendlyNames":[{"@type":"text","value":{"text":"Mode","locale":"en-US"}},{"@type":"text","value":{"text":"Mode","locale":"en-CA"}},{"@type":"text","value":{"text":"Mode","locale":"en-GB"}},{"@type":"text","value":{"text":"modo","locale":"pt-BR"}}]},"version":"3","properties":{"nonControllable":true,"retrievable":true,"supported":[{"name":"mode"}],"proactivelyReported":true}},{"instance":"Refrigerator.SuperCool","interface":"Alexa.ToggleController","type":"AlexaInterface","capabilityResources":{"friendlyNames":[{"@type":"text","value":{"text":"super cool","locale":"en-US"}},{"@type":"text","value":{"text":"supercool","locale":"en-US"}},{"@type":"text","value":{"text":"cool","locale":"en-US"}},{"@type":"text","value":{"text":"super cool","locale":"en-CA"}},{"@type":"text","value":{"text":"super cool","locale":"en-GB"}},{"@type":"text","value":{"text":"Turbo Resfriamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"Turbo Refrigerador","locale":"pt-BR"}},{"@type":"text","value":{"text":"TurboRefrigerador","locale":"pt-BR"}},{"@type":"text","value":{"text":"Refrigerador","locale":"pt-BR"}}]},"version":"3","properties":{"retrievable":true,"proactivelyReported":true,"supported":[{"name":"toggleState"}]}},{"instance":"Refrigerator.SuperFreeze","interface":"Alexa.ToggleController","type":"AlexaInterface","capabilityResources":{"friendlyNames":[{"@type":"text","value":{"text":"super freeze","locale":"en-US"}},{"@type":"text","value":{"text":"superfreeze","locale":"en-US"}},{"@type":"text","value":{"text":"freeze","locale":"en-US"}},{"@type":"text","value":{"text":"super freeze","locale":"en-GB"}},{"@type":"text","value":{"text":"super freeze","locale":"en-CA"}},{"@type":"text","value":{"text":"Turbo Congelamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"Turbo Freezer","locale":"pt-BR"}},{"@type":"text","value":{"text":"TurboFreezer","locale":"pt-BR"}},{"@type":"text","value":{"text":"Freezer","locale":"pt-BR"}}]},"version":"3","properties":{"retrievable":true,"proactivelyReported":true,"supported":[{"name":"toggleState"}]}}],"cookie":{},"endpointId":"175921860444399","manufacturerName":"XXXX","description":"Smart Device","connections":[],"friendlyName":"385","additionalAttributes":{}},{"displayCategories":["REFRIGERATOR"],"capabilities":[{"interface":"Alexa.EndpointHealth","type":"AlexaInterface","version":"3","properties":{"retrievable":true,"supported":[{"name":"connectivity"}],"proactivelyReported":true}},{"interface":"Alexa.ThermostatController","type":"AlexaInterface","version":"3","properties":{"retrievable":true,"supported":[{"name":"targetSetpoint"},{"name":"AdjustTargetTemperature"}],"proactivelyReported":true}},{"interface":"Alexa.TemperatureSensor","type":"AlexaInterface","version":"3"},{"instance":"Refrigerator.Mode","configuration":{"ordered":false,"supportedModes":[{"modeResources":{"friendlyNames":[{"@type":"text","value":{"text":"superCool","locale":"en-US"}},{"@type":"text","value":{"text":"cool","locale":"en-US"}},{"@type":"text","value":{"text":"super Cool","locale":"en-CA"}},{"@type":"text","value":{"text":"super Cool","locale":"en-GB"}},{"@type":"text","value":{"text":"Turbo Resfriamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"Refrigerador","locale":"pt-BR"}}]},"value":"Mode.superCool"},{"modeResources":{"friendlyNames":[{"@type":"text","value":{"text":"superFreeze","locale":"en-US"}},{"@type":"text","value":{"text":"super Freeze","locale":"en-US"}},{"@type":"text","value":{"text":"super Freeze","locale":"en-CA"}},{"@type":"text","value":{"text":"super Freeze","locale":"en-GB"}},{"@type":"text","value":{"text":"Turbo Congelamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"Freezer","locale":"pt-BR"}}]},"value":"Mode.superFreeze"},{"modeResources":{"friendlyNames":[{"@type":"text","value":{"text":"superCoolandsuperFreeze","locale":"en-US"}},{"@type":"text","value":{"text":"coolandFreeze","locale":"en-US"}},{"@type":"text","value":{"text":"superCoolandsuperFreeze","locale":"en-CA"}},{"@type":"text","value":{"text":"superCoolandsuperFreeze","locale":"en-GB"}},{"@type":"text","value":{"text":" TurboResfriamento e TurboCongelamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"RefrigeradoreFreezer","locale":"pt-BR"}}]},"value":"Mode.superCoolAndSuperFreeze"},{"modeResources":{"friendlyNames":[{"@type":"text","value":{"text":"NotSet","locale":"en-US"}},{"@type":"text","value":{"text":"NotSet","locale":"en-CA"}},{"@type":"text","value":{"text":"NotSet","locale":"en-GB"}},{"@type":"text","value":{"text":"NãoConfigurado","locale":"pt-BR"}}]},"value":"Mode.notSet"}]},"interface":"Alexa.ModeController","type":"AlexaInterface","capabilityResources":{"friendlyNames":[{"@type":"text","value":{"text":"Mode","locale":"en-US"}},{"@type":"text","value":{"text":"Mode","locale":"en-CA"}},{"@type":"text","value":{"text":"Mode","locale":"en-GB"}},{"@type":"text","value":{"text":"modo","locale":"pt-BR"}}]},"version":"3","properties":{"nonControllable":true,"retrievable":true,"supported":[{"name":"mode"}],"proactivelyReported":true}},{"instance":"Refrigerator.SuperCool","interface":"Alexa.ToggleController","type":"AlexaInterface","capabilityResources":{"friendlyNames":[{"@type":"text","value":{"text":"super cool","locale":"en-US"}},{"@type":"text","value":{"text":"supercool","locale":"en-US"}},{"@type":"text","value":{"text":"cool","locale":"en-US"}},{"@type":"text","value":{"text":"super cool","locale":"en-CA"}},{"@type":"text","value":{"text":"super cool","locale":"en-GB"}},{"@type":"text","value":{"text":"Turbo Resfriamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"Turbo Refrigerador","locale":"pt-BR"}},{"@type":"text","value":{"text":"TurboRefrigerador","locale":"pt-BR"}},{"@type":"text","value":{"text":"Refrigerador","locale":"pt-BR"}}]},"version":"3","properties":{"retrievable":true,"proactivelyReported":true,"supported":[{"name":"toggleState"}]}},{"instance":"Refrigerator.SuperFreeze","interface":"Alexa.ToggleController","type":"AlexaInterface","capabilityResources":{"friendlyNames":[{"@type":"text","value":{"text":"super freeze","locale":"en-US"}},{"@type":"text","value":{"text":"superfreeze","locale":"en-US"}},{"@type":"text","value":{"text":"freeze","locale":"en-US"}},{"@type":"text","value":{"text":"super freeze","locale":"en-GB"}},{"@type":"text","value":{"text":"super freeze","locale":"en-CA"}},{"@type":"text","value":{"text":"Turbo Congelamento","locale":"pt-BR"}},{"@type":"text","value":{"text":"Turbo Freezer","locale":"pt-BR"}},{"@type":"text","value":{"text":"TurboFreezer","locale":"pt-BR"}},{"@type":"text","value":{"text":"Freezer","locale":"pt-BR"}}]},"version":"3","properties":{"retrievable":true,"proactivelyReported":true,"supported":[{"name":"toggleState"}]}}],"cookie":{},"endpointId":"30786325578797","manufacturerName":"XXXX","description":"Smart Device","connections":[],"friendlyName":"CA","additionalAttributes":{}}]},"header":{"payloadVersion":"3","name":"Discover.Response","namespace":"Alexa.Discovery","messageId":"7bb664ec-4c8d-42fb-8036-56d12a53c56a"}}}
+
+
+Json:
+{
+  "event": {
+    "payload": {
+      "endpoints": [
+        {
+          "displayCategories": [
+            "REFRIGERATOR"
+          ],
+          "capabilities": [
+            {
+              "interface": "Alexa.EndpointHealth",
+              "type": "AlexaInterface",
+              "version": "3",
+              "properties": {
+                "retrievable": true,
+                "supported": [
+                  {
+                    "name": "connectivity"
+                  }
+                ],
+                "proactivelyReported": true
+              }
+            },
+            {
+              "interface": "Alexa.ThermostatController",
+              "type": "AlexaInterface",
+              "version": "3",
+              "properties": {
+                "retrievable": true,
+                "supported": [
+                  {
+                    "name": "targetSetpoint"
+                  },
+                  {
+                    "name": "AdjustTargetTemperature"
+                  }
+                ],
+                "proactivelyReported": true
+              }
+            },
+            {
+              "interface": "Alexa.TemperatureSensor",
+              "type": "AlexaInterface",
+              "version": "3"
+            },
+            {
+              "instance": "Refrigerator.Mode",
+              "configuration": {
+                "ordered": false,
+                "supportedModes": [
+                  {
+                    "modeResources": {
+                      "friendlyNames": [
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superCool",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "cool",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Cool",
+                            "locale": "en-CA"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Cool",
+                            "locale": "en-GB"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "Turbo Resfriamento",
+                            "locale": "pt-BR"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "Refrigerador",
+                            "locale": "pt-BR"
+                          }
+                        }
+                      ]
+                    },
+                    "value": "Mode.superCool"
+                  },
+                  {
+                    "modeResources": {
+                      "friendlyNames": [
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superFreeze",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Freeze",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Freeze",
+                            "locale": "en-CA"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Freeze",
+                            "locale": "en-GB"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "Turbo Congelamento",
+                            "locale": "pt-BR"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "Freezer",
+                            "locale": "pt-BR"
+                          }
+                        }
+                      ]
+                    },
+                    "value": "Mode.superFreeze"
+                  },
+                  {
+                    "modeResources": {
+                      "friendlyNames": [
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superCoolandsuperFreeze",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "coolandFreeze",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superCoolandsuperFreeze",
+                            "locale": "en-CA"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superCoolandsuperFreeze",
+                            "locale": "en-GB"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": " TurboResfriamento e TurboCongelamento",
+                            "locale": "pt-BR"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "RefrigeradoreFreezer",
+                            "locale": "pt-BR"
+                          }
+                        }
+                      ]
+                    },
+                    "value": "Mode.superCoolAndSuperFreeze"
+                  },
+                  {
+                    "modeResources": {
+                      "friendlyNames": [
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "NotSet",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "NotSet",
+                            "locale": "en-CA"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "NotSet",
+                            "locale": "en-GB"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "NãoConfigurado",
+                            "locale": "pt-BR"
+                          }
+                        }
+                      ]
+                    },
+                    "value": "Mode.notSet"
+                  }
+                ]
+              },
+              "interface": "Alexa.ModeController",
+              "type": "AlexaInterface",
+              "capabilityResources": {
+                "friendlyNames": [
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Mode",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Mode",
+                      "locale": "en-CA"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Mode",
+                      "locale": "en-GB"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "modo",
+                      "locale": "pt-BR"
+                    }
+                  }
+                ]
+              },
+              "version": "3",
+              "properties": {
+                "nonControllable": true,
+                "retrievable": true,
+                "supported": [
+                  {
+                    "name": "mode"
+                  }
+                ],
+                "proactivelyReported": true
+              }
+            },
+            {
+              "instance": "Refrigerator.SuperCool",
+              "interface": "Alexa.ToggleController",
+              "type": "AlexaInterface",
+              "capabilityResources": {
+                "friendlyNames": [
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super cool",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "supercool",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "cool",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super cool",
+                      "locale": "en-CA"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super cool",
+                      "locale": "en-GB"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Turbo Resfriamento",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Turbo Refrigerador",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "TurboRefrigerador",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Refrigerador",
+                      "locale": "pt-BR"
+                    }
+                  }
+                ]
+              },
+              "version": "3",
+              "properties": {
+                "retrievable": true,
+                "proactivelyReported": true,
+                "supported": [
+                  {
+                    "name": "toggleState"
+                  }
+                ]
+              }
+            },
+            {
+              "instance": "Refrigerator.SuperFreeze",
+              "interface": "Alexa.ToggleController",
+              "type": "AlexaInterface",
+              "capabilityResources": {
+                "friendlyNames": [
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super freeze",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "superfreeze",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "freeze",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super freeze",
+                      "locale": "en-GB"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super freeze",
+                      "locale": "en-CA"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Turbo Congelamento",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Turbo Freezer",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "TurboFreezer",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Freezer",
+                      "locale": "pt-BR"
+                    }
+                  }
+                ]
+              },
+              "version": "3",
+              "properties": {
+                "retrievable": true,
+                "proactivelyReported": true,
+                "supported": [
+                  {
+                    "name": "toggleState"
+                  }
+                ]
+              }
+            }
+          ],
+          "cookie": {},
+          "endpointId": "175921860444399",
+          "manufacturerName": "XXXX",
+          "description": "Smart Device",
+          "connections": [],
+          "friendlyName": "385",
+          "additionalAttributes": {}
+        },
+        {
+          "displayCategories": [
+            "REFRIGERATOR"
+          ],
+          "capabilities": [
+            {
+              "interface": "Alexa.EndpointHealth",
+              "type": "AlexaInterface",
+              "version": "3",
+              "properties": {
+                "retrievable": true,
+                "supported": [
+                  {
+                    "name": "connectivity"
+                  }
+                ],
+                "proactivelyReported": true
+              }
+            },
+            {
+              "interface": "Alexa.ThermostatController",
+              "type": "AlexaInterface",
+              "version": "3",
+              "properties": {
+                "retrievable": true,
+                "supported": [
+                  {
+                    "name": "targetSetpoint"
+                  },
+                  {
+                    "name": "AdjustTargetTemperature"
+                  }
+                ],
+                "proactivelyReported": true
+              }
+            },
+            {
+              "interface": "Alexa.TemperatureSensor",
+              "type": "AlexaInterface",
+              "version": "3"
+            },
+            {
+              "instance": "Refrigerator.Mode",
+              "configuration": {
+                "ordered": false,
+                "supportedModes": [
+                  {
+                    "modeResources": {
+                      "friendlyNames": [
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superCool",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "cool",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Cool",
+                            "locale": "en-CA"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Cool",
+                            "locale": "en-GB"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "Turbo Resfriamento",
+                            "locale": "pt-BR"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "Refrigerador",
+                            "locale": "pt-BR"
+                          }
+                        }
+                      ]
+                    },
+                    "value": "Mode.superCool"
+                  },
+                  {
+                    "modeResources": {
+                      "friendlyNames": [
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superFreeze",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Freeze",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Freeze",
+                            "locale": "en-CA"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "super Freeze",
+                            "locale": "en-GB"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "Turbo Congelamento",
+                            "locale": "pt-BR"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "Freezer",
+                            "locale": "pt-BR"
+                          }
+                        }
+                      ]
+                    },
+                    "value": "Mode.superFreeze"
+                  },
+                  {
+                    "modeResources": {
+                      "friendlyNames": [
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superCoolandsuperFreeze",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "coolandFreeze",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superCoolandsuperFreeze",
+                            "locale": "en-CA"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "superCoolandsuperFreeze",
+                            "locale": "en-GB"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": " TurboResfriamento e TurboCongelamento",
+                            "locale": "pt-BR"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "RefrigeradoreFreezer",
+                            "locale": "pt-BR"
+                          }
+                        }
+                      ]
+                    },
+                    "value": "Mode.superCoolAndSuperFreeze"
+                  },
+                  {
+                    "modeResources": {
+                      "friendlyNames": [
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "NotSet",
+                            "locale": "en-US"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "NotSet",
+                            "locale": "en-CA"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "NotSet",
+                            "locale": "en-GB"
+                          }
+                        },
+                        {
+                          "@type": "text",
+                          "value": {
+                            "text": "NãoConfigurado",
+                            "locale": "pt-BR"
+                          }
+                        }
+                      ]
+                    },
+                    "value": "Mode.notSet"
+                  }
+                ]
+              },
+              "interface": "Alexa.ModeController",
+              "type": "AlexaInterface",
+              "capabilityResources": {
+                "friendlyNames": [
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Mode",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Mode",
+                      "locale": "en-CA"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Mode",
+                      "locale": "en-GB"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "modo",
+                      "locale": "pt-BR"
+                    }
+                  }
+                ]
+              },
+              "version": "3",
+              "properties": {
+                "nonControllable": true,
+                "retrievable": true,
+                "supported": [
+                  {
+                    "name": "mode"
+                  }
+                ],
+                "proactivelyReported": true
+              }
+            },
+            {
+              "instance": "Refrigerator.SuperCool",
+              "interface": "Alexa.ToggleController",
+              "type": "AlexaInterface",
+              "capabilityResources": {
+                "friendlyNames": [
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super cool",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "supercool",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "cool",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super cool",
+                      "locale": "en-CA"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super cool",
+                      "locale": "en-GB"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Turbo Resfriamento",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Turbo Refrigerador",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "TurboRefrigerador",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Refrigerador",
+                      "locale": "pt-BR"
+                    }
+                  }
+                ]
+              },
+              "version": "3",
+              "properties": {
+                "retrievable": true,
+                "proactivelyReported": true,
+                "supported": [
+                  {
+                    "name": "toggleState"
+                  }
+                ]
+              }
+            },
+            {
+              "instance": "Refrigerator.SuperFreeze",
+              "interface": "Alexa.ToggleController",
+              "type": "AlexaInterface",
+              "capabilityResources": {
+                "friendlyNames": [
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super freeze",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "superfreeze",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "freeze",
+                      "locale": "en-US"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super freeze",
+                      "locale": "en-GB"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "super freeze",
+                      "locale": "en-CA"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Turbo Congelamento",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Turbo Freezer",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "TurboFreezer",
+                      "locale": "pt-BR"
+                    }
+                  },
+                  {
+                    "@type": "text",
+                    "value": {
+                      "text": "Freezer",
+                      "locale": "pt-BR"
+                    }
+                  }
+                ]
+              },
+              "version": "3",
+              "properties": {
+                "retrievable": true,
+                "proactivelyReported": true,
+                "supported": [
+                  {
+                    "name": "toggleState"
+                  }
+                ]
+              }
+            }
+          ],
+          "cookie": {},
+          "endpointId": "30786325578797",
+          "manufacturerName": "XXXX",
+          "description": "Smart Device",
+          "connections": [],
+          "friendlyName": "CA",
+          "additionalAttributes": {}
+        }
+      ]
+    },
+    "header": {
+      "payloadVersion": "3",
+      "name": "Discover.Response",
+      "namespace": "Alexa.Discovery",
+      "messageId": "7bb664ec-4c8d-42fb-8036-56d12a53c56a"
+    }
+  }
+}
